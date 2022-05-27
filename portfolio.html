@@ -1,3 +1,5 @@
+<!--(criar uma div)-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,41 +7,136 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="ajustes.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="header">
-  <h1>Responsive Image Grid</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
+<div class="fundo"> 
+  <div >
+  <ul> 
+    <div>
+      <li><a href="contact">Contact</a></li>
+      <li><a href="about">About Me</a></li>
+  </div>
+    <div >
+      <li .class="home"><a href="home">João Barbosa</a> </li>
+    </div>
+  </ul>
+</div> 
+</div>
+<div class="centered">
+  <h1>João Barbosa</h1>
+</div>
 </div>
 
-<div class="row">
+<!-- Photo Grid -->
+<div class="row"> 
   <div class="column">
-    <img src="img/mosaico/aaron.jpg" style="width: 100%;">
-     <img src="img/mosaico/easygo.jpg" style="width: 100%;">
-      <img src="img/mosaico/elon.jpg" style="width: 100%;">
+    <div class="container">
+      <img src="img/mosaico/aaron.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">um</div>
+  </div>
+    </div>
+    <div class="container">
+      <img src="img/mosaico/easygo.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">dois</div>
+  </div>
+    </div>
+    <div class="container">
+      <img src="img/mosaico/mclaren.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">três</div>
+  </div>
+    </div>
+  </div>
 
-
-
+  <div class="column">
+    <div class="container">
+      <img src="img/mosaico/f1.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">quatro</div>
+  </div>
+  </div>
+  <div class="container">
+      <img src="img/mosaico/elon.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">cinco</div>
+  </div>
+  </div>
+  <div class="container">
+      <img src="img/gifs/gif_suor.gif" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">seis</div>
+  </div>
+  </div>
+  <div class="container">
+      <img src="img/mosaico/fundo.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">sete</div>
+  </div>
+  </div>
+  </div>  
+  
+  <div class="column">
+    <div class="container">
+      <img src="img/mosaico/newyork.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">oito</div>
+  </div>
+  </div>
+  <div class="container">
+      <img src="img/mosaico/sapceship.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">nove</div>
+  </div>
+  </div>
+   <div class="container">
+      <img src="letrasecra.gif" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">nove e meio</div>
+  </div>
+  </div> 
 
   </div>
 
-</div>
-
-
-
+  <div class="column">
+    <div class="container">
+      <img src="img/gifs/gif_lego.gif" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">dez</div>
   </div>
-
+  </div>
+  <div class="container">
+      <img src="img/mosaico/sabeduria.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">onze</div>
+  </div>
+  </div>
+  <div class="container">
+      <img src="img/mosaico/derretida.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="overlay">
+    <div class="text">doze</div>
+  </div>
+  </div>
 </div>
 
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
 </div>
 
 <div class="parallax"></div>
 
 
-<!--<div style="height: 800px; background-color: red; font-size: 36px;">--> 
-  <!--(criar uma div)-->
+
+
 
 </body>
 </html>
