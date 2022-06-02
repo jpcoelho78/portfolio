@@ -63,6 +63,8 @@ li .home a {
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
   font-size: 50px;
+  margin: 0;
+  font-family: Arial;
 }
 
 .header {
@@ -70,6 +72,8 @@ li .home a {
   padding: 272px;
   color: white;
   font-family: 400;
+  padding: 32px;
+
 }
 
 .row {
