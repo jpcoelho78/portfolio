@@ -4,7 +4,7 @@
 
 body {
   background-color: black;
-  ont-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace;
   
   font-size: 15px;
 }
@@ -157,30 +157,31 @@ li .home a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.imagemesquerda {
-  float: left;
-  margin-left: 30px;
-}
-
-.titulodireita{
-
-}
-.textodireita{
-  margin-right: 30px;
-  text-align: justify;
   
 }
 
 
+.w{
+  color: white;
+  font-size: 30px;
+}
 
+.p {
+  color: white;
+}
+ .iconDetails {
+ margin-left:2%;
+float:left; 
+width:50%; 
+padding-right: 20px;
+padding-bottom: 20px;
+} 
 
-
-
-
-
-
+.container2 {
+    width:100%;
+    height:auto;
+    padding:1%;
+}
 
 
 
